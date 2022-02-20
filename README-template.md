@@ -37,7 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
+First i have a problem with center my card. When i use flexbox at marker body it wasn't working. But when i used it at html it worked. And don't know why.
+During whole process i had problem to solve with a font and a dimensions that card.
 ### Built with
 
 - Semantic HTML5 markup
