@@ -71,6 +71,17 @@ body {
   font-size: 0.8rem;
 }
 
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  width: 80vw;
+}
+
 @media (min-width: 375px) {
   .card {
     width: 70%;
@@ -92,6 +103,16 @@ body {
 @media (min-width: 1024px) {
   .card {
     width: 40%;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
+  }
+  .box {
+    background-color: #d6e2f0;
+    -webkit-box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.37);
+            box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.37);
+  }
+  body {
+    background-color: #7b879d;
   }
 }
 
