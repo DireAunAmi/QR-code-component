@@ -49,6 +49,8 @@ body {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
 }
 
 .card__img {
@@ -103,8 +105,6 @@ body {
 @media (min-width: 1024px) {
   .card {
     width: 40%;
-    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
-            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
   }
   .box {
     background-color: #d6e2f0;

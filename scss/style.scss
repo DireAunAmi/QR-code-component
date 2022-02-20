@@ -32,6 +32,7 @@ body {
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 10px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
 	&__img {
 		border-radius: 10px;
 		width: 100%;
@@ -76,7 +77,6 @@ body {
 @media (min-width: 1024px) {
 	.card {
 		width: 40%;
-		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.274);
 	}
 	.box {
 		background-color: hsl(212, 45%, 89%);
